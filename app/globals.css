@@ -1,0 +1,31 @@
+/* 黑夜背景 + 白字 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fall 0.5s forwards;
+}
+
+@keyframes fall {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
