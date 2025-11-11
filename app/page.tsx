@@ -1,4 +1,4 @@
-import GushiNight from "../components/GushiNight";
+import GushiNight from "../components/GushiNight.jsx";
 import "./globals.css";  // ⚠ 如果 globals.css 在 app/ 里
 
 
